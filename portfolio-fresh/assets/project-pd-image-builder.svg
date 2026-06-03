@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">AI product image workflow illustration</title>
+  <desc id="desc">A dark interface showing product image generation, QA scoring, and PDF export.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1bd7ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ff7ab6" stop-opacity=".08"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="760" height="430" rx="28" fill="#030303"/>
+  <path d="M0 320 C150 280 222 380 382 320 C520 268 626 300 760 248 L760 430 L0 430 Z" fill="#10162c"/>
+  <g opacity=".24" stroke="#7ddcff" stroke-width="1">
+    <path d="M92 0v430M206 0v430M320 0v430M434 0v430M548 0v430M662 0v430"/>
+    <path d="M0 78h760M0 164h760M0 250h760M0 336h760"/>
+  </g>
+  <rect x="62" y="58" width="480" height="286" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".22"/>
+  <rect x="88" y="86" width="236" height="168" rx="16" fill="#080808" stroke="#fff" stroke-opacity=".2"/>
+  <circle cx="142" cy="132" r="31" fill="#ffb84d"/>
+  <path d="M108 226 174 168 222 214 252 190 304 226Z" fill="#7ddcff" opacity=".88"/>
+  <g fill="none" stroke="#ff7ab6" stroke-width="5" stroke-linecap="round" filter="url(#glow)">
+    <path d="M374 104h98M374 138h132M374 172h84"/>
+  </g>
+  <rect x="374" y="210" width="152" height="28" rx="14" fill="#9cff8f"/>
+  <text x="392" y="229" fill="#030303" font-family="Arial, sans-serif" font-size="13" font-weight="900">QA SCORE 92</text>
+  <rect x="584" y="78" width="94" height="126" rx="18" fill="#ffdf7d"/>
+  <path d="M608 112h46M608 136h34M608 160h46" stroke="#030303" stroke-width="6" stroke-linecap="round"/>
+  <path d="M552 268h104" stroke="#7ddcff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M626 238 656 268 626 298" fill="none" stroke="#ff7ab6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="382" fill="#ffdf7d" font-family="Arial Black, Arial, sans-serif" font-size="28">AI IMAGE WORKFLOW</text>
+</svg>

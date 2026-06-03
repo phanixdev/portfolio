@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">PD Image Builder architecture flow</title>
+  <desc id="desc">Flow from browser brief capture to Python backend, AI generation, QA scoring, and PDF export.</desc>
+  <rect width="980" height="360" rx="24" fill="#050505"/>
+  <g fill="#10162c" stroke="#7ddcff" stroke-width="2">
+    <rect x="46" y="112" width="150" height="88" rx="16"/>
+    <rect x="258" y="112" width="150" height="88" rx="16"/>
+    <rect x="470" y="112" width="150" height="88" rx="16"/>
+    <rect x="682" y="112" width="150" height="88" rx="16"/>
+    <rect x="470" y="246" width="150" height="62" rx="16" stroke="#ffdf7d"/>
+  </g>
+  <g stroke="#ff7ab6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M196 156h52"/><path d="M238 142 248 156 238 170"/>
+    <path d="M408 156h52"/><path d="M450 142 460 156 450 170"/>
+    <path d="M620 156h52"/><path d="M662 142 672 156 662 170"/>
+    <path d="M545 200v36"/><path d="M531 226 545 236 559 226"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g fill="#f6f3ed" font-size="18" font-weight="900">
+      <text x="121" y="148">Browser UI</text><text x="121" y="174">Brief Input</text>
+      <text x="333" y="148">Python</text><text x="333" y="174">Backend API</text>
+      <text x="545" y="148">AI Image</text><text x="545" y="174">Generation</text>
+      <text x="757" y="148">Final PDF</text><text x="757" y="174">Export</text>
+      <text x="545" y="284">QA Scoring Gate</text>
+    </g>
+    <text x="490" y="56" fill="#ffdf7d" font-size="26" font-weight="900">PRODUCT IMAGE WORKFLOW ARCHITECTURE</text>
+    <text x="490" y="334" fill="#9cff8f" font-size="15" font-weight="700">Brand brief -> generation prompts -> AI drafts -> quality check -> exportable output</text>
+  </g>
+</svg>

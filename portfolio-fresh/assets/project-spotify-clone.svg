@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Spotify clone frontend illustration</title>
+  <desc id="desc">A colorful music player UI with playlist cards, equalizer bars, and playback controls.</desc>
+  <defs>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fffd2"/>
+      <stop offset=".5" stop-color="#6ca8ff"/>
+      <stop offset="1" stop-color="#ff7ab6"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="430" rx="28" fill="#030303"/>
+  <rect x="56" y="54" width="648" height="292" rx="26" fill="#10162c" stroke="#6ca8ff" stroke-opacity=".42"/>
+  <rect x="92" y="92" width="162" height="162" rx="22" fill="url(#cover)"/>
+  <circle cx="173" cy="173" r="46" fill="#030303" opacity=".84"/>
+  <path d="M160 146v84M190 146v84" stroke="#8fffd2" stroke-width="10" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif" font-weight="900">
+    <rect x="296" y="100" width="248" height="18" rx="9" fill="#ffdf7d"/>
+    <rect x="296" y="138" width="360" height="14" rx="7" fill="#6ca8ff" opacity=".9"/>
+    <rect x="296" y="170" width="292" height="14" rx="7" fill="#ff7ab6" opacity=".9"/>
+    <rect x="296" y="218" width="394" height="8" rx="4" fill="#f6f3ed" opacity=".24"/>
+    <rect x="296" y="218" width="218" height="8" rx="4" fill="#8fffd2"/>
+  </g>
+  <g fill="#f6f3ed">
+    <circle cx="386" cy="278" r="12"/>
+    <circle cx="456" cy="278" r="18"/>
+    <circle cx="526" cy="278" r="12"/>
+  </g>
+  <g stroke="#8fffd2" stroke-width="10" stroke-linecap="round">
+    <path d="M610 280v-34"/>
+    <path d="M638 280v-74"/>
+    <path d="M666 280v-50"/>
+  </g>
+  <text x="62" y="386" fill="#8fffd2" font-family="Arial Black, Arial, sans-serif" font-size="28">FRONTEND MUSIC UI</text>
+</svg>

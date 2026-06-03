@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Fine Arts Club logo badge</title>
+  <rect width="160" height="160" rx="34" fill="#050505"/>
+  <path d="M46 112c-18-18-16-52 2-72 22-24 60-24 82 2 18 22 15 56-4 74-14 14-36 12-40-4-3-12 8-18 20-17 14 1 24-8 23-23-2-26-32-42-58-31-25 11-36 42-20 65 8 12 20 18 36 18" fill="none" stroke="#ff7ab6" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="56" cy="66" r="8" fill="#ffdf7d"/>
+  <circle cx="82" cy="54" r="8" fill="#8fffd2"/>
+  <circle cx="108" cy="68" r="8" fill="#6ca8ff"/>
+  <text x="80" y="146" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="15" font-weight="900" text-anchor="middle">ARTS</text>
+</svg>

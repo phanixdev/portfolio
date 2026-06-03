@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">pd-image-builder architecture banner</title>
+  <desc id="desc">Whiteboard style architecture diagram for an AI product image workflow app.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fffdfa}.ink{fill:none;stroke:#151515;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.thin{stroke-width:2}.dash{stroke-dasharray:11 10}.blue{stroke:#2672d8}.green{stroke:#15975b}.purple{stroke:#7d43c7}.orange{stroke:#c67a00}.txt{font-family:"Segoe Print","Comic Sans MS",Arial,sans-serif;fill:#151515;font-weight:700}.small{font-size:22px}.tiny{font-size:17px}.mid{font-size:30px}.big{font-size:52px}.box{fill:#fffefa}.soft-blue{fill:#edf6ff}.soft-green{fill:#eefbf2}.soft-purple{fill:#f5efff}.soft-orange{fill:#fff6e5}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#151515" stroke-width="1.8"/></marker>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .045"/></feComponentTransfer></filter>
+  </defs>
+  <rect class="bg" width="1600" height="900"/><rect width="1600" height="900" filter="url(#paper)" opacity=".55"/>
+  <text class="txt big" x="800" y="70" text-anchor="middle">AI Product Image Workflow</text>
+  <text class="txt small" x="800" y="108" text-anchor="middle">brief to concepts to QA to presentation export</text>
+  <g transform="translate(55 150)">
+    <rect class="box ink" x="0" y="0" width="225" height="310" rx="18"/><text class="txt mid" x="112" y="46" text-anchor="middle">Inputs</text>
+    <text class="txt small" x="32" y="95">Brand brief</text><text class="txt small" x="32" y="145">Product notes</text><text class="txt small" x="32" y="195">Reference mood</text><text class="txt small" x="32" y="245">Export goal</text>
+  </g>
+  <g transform="translate(350 185)">
+    <rect class="soft-blue ink blue" x="0" y="0" width="245" height="245" rx="18"/><text class="txt mid" x="122" y="48" text-anchor="middle">Browser UI</text>
+    <text class="txt tiny" x="32" y="92">single workspace</text><text class="txt tiny" x="32" y="124">prompt controls</text><text class="txt tiny" x="32" y="156">image preview</text><text class="txt tiny" x="32" y="188">review actions</text>
+  </g>
+  <g transform="translate(690 125)">
+    <rect class="soft-purple ink purple" x="0" y="0" width="340" height="470" rx="22"/><text class="txt mid" x="170" y="45" text-anchor="middle">Python Backend</text>
+    <rect class="box ink purple thin" x="34" y="82" width="272" height="82" rx="14"/><text class="txt small" x="170" y="118" text-anchor="middle">1. Brief parser</text><text class="txt tiny" x="170" y="145" text-anchor="middle">normalizes inputs</text>
+    <rect class="box ink purple thin" x="34" y="194" width="272" height="82" rx="14"/><text class="txt small" x="170" y="230" text-anchor="middle">2. Image prompt builder</text><text class="txt tiny" x="170" y="257" text-anchor="middle">composition + style</text>
+    <rect class="box ink purple thin" x="34" y="306" width="272" height="82" rx="14"/><text class="txt small" x="170" y="342" text-anchor="middle">3. QA scoring</text><text class="txt tiny" x="170" y="369" text-anchor="middle">checks output fit</text>
+  </g>
+  <g transform="translate(1110 155)">
+    <rect class="soft-green ink green" x="0" y="0" width="295" height="160" rx="18"/><text class="txt mid" x="147" y="45" text-anchor="middle">AI Generation</text><text class="txt tiny" x="42" y="88">Hugging Face models</text><text class="txt tiny" x="42" y="120">draft image concepts</text>
+    <rect class="soft-orange ink orange" x="0" y="220" width="295" height="160" rx="18"/><text class="txt mid" x="147" y="265" text-anchor="middle">PDF Export</text><text class="txt tiny" x="42" y="308">ReportLab package</text><text class="txt tiny" x="42" y="340">shareable output</text>
+  </g>
+  <g class="ink" marker-end="url(#arrow)"><path class="blue" d="M280 305 C310 305 320 305 350 305"/><path class="purple" d="M595 305 C640 305 650 300 690 300"/><path class="green" d="M1030 260 C1070 240 1070 235 1110 235"/><path class="orange" d="M1030 420 C1070 470 1070 500 1110 500"/><path class="dash blue" d="M1260 315 C1190 380 1130 420 1030 482"/></g>
+  <g transform="translate(75 560)">
+    <rect class="soft-blue ink blue" x="0" y="0" width="250" height="58" rx="12"/><text class="txt small" x="125" y="38" text-anchor="middle">fast local iteration</text>
+    <rect class="soft-green ink green" x="0" y="84" width="250" height="58" rx="12"/><text class="txt small" x="125" y="122" text-anchor="middle">QA before export</text>
+    <rect class="soft-orange ink orange" x="0" y="168" width="250" height="58" rx="12"/><text class="txt small" x="125" y="206" text-anchor="middle">presentation-ready PDF</text>
+  </g>
+  <g transform="translate(455 655)">
+    <rect class="box ink blue" x="0" y="0" width="855" height="125" rx="18"/><text class="txt mid" x="427" y="42" text-anchor="middle">Production Loop</text>
+    <text class="txt small" x="55" y="86">generate draft</text><path class="ink thin" d="M230 78h95" marker-end="url(#arrow)"/><text class="txt small" x="360" y="86">review score</text><path class="ink thin" d="M535 78h95" marker-end="url(#arrow)"/><text class="txt small" x="665" y="86">export package</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">DRDO LRDE logo badge</title>
+  <rect width="160" height="160" rx="34" fill="#050505"/>
+  <circle cx="80" cy="80" r="54" fill="none" stroke="#8fffd2" stroke-width="8"/>
+  <path d="M80 34 96 70 135 76 104 100 112 138 80 118 48 138 56 100 25 76 64 70Z" fill="#ffdf7d"/>
+  <circle cx="80" cy="80" r="18" fill="#030303" stroke="#6ca8ff" stroke-width="6"/>
+  <text x="80" y="148" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="16" font-weight="900" text-anchor="middle">LRDE</text>
+</svg>

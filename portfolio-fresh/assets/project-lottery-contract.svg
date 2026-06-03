@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Lottery smart contract illustration</title>
+  <desc id="desc">A colorful blockchain lottery wheel with participant nodes and winner selection.</desc>
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="760" height="430" rx="28" fill="#030303"/>
+  <g opacity=".18" stroke="#6ca8ff" stroke-width="1">
+    <path d="M0 92h760M0 184h760M0 276h760M0 368h760"/>
+    <path d="M126 0v430M252 0v430M378 0v430M504 0v430M630 0v430"/>
+  </g>
+  <circle cx="382" cy="202" r="122" fill="#10162c" stroke="#8fffd2" stroke-width="7" filter="url(#glow)"/>
+  <path d="M382 80v244M260 202h244M296 116l172 172M468 116 296 288" stroke="#ffdf7d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="382" cy="202" r="42" fill="#ff7ab6"/>
+  <path d="M382 148 398 192 446 194 407 222 420 268 382 242 344 268 357 222 318 194 366 192Z" fill="#030303"/>
+  <g font-family="Arial, sans-serif" font-weight="900" font-size="13" text-anchor="middle">
+    <g fill="#10162c" stroke="#b58cff" stroke-width="4">
+      <circle cx="202" cy="126" r="34"/><circle cx="596" cy="126" r="34"/><circle cx="202" cy="306" r="34"/><circle cx="596" cy="306" r="34"/>
+    </g>
+    <text x="202" y="131" fill="#b58cff">JOIN</text>
+    <text x="596" y="131" fill="#8fffd2">POT</text>
+    <text x="202" y="311" fill="#ffdf7d">DRAW</text>
+    <text x="596" y="311" fill="#ff7ab6">WIN</text>
+  </g>
+  <text x="62" y="386" fill="#ffdf7d" font-family="Arial Black, Arial, sans-serif" font-size="28">LOTTERY CONTRACT</text>
+</svg>

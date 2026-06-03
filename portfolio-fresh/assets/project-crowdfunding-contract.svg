@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Blockchain crowdfunding smart contract illustration</title>
+  <desc id="desc">A blockchain contract with connected contributor nodes and voting flow.</desc>
+  <defs>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="760" height="430" rx="28" fill="#030303"/>
+  <g opacity=".2" stroke="#b58cff" stroke-width="1">
+    <path d="M0 112h760M0 216h760M0 320h760"/>
+    <path d="M96 0v430M218 0v430M340 0v430M462 0v430M584 0v430M706 0v430"/>
+  </g>
+  <g stroke="#b58cff" stroke-width="4" opacity=".78">
+    <path d="M382 214 194 126M382 214 198 310M382 214 594 126M382 214 596 310M382 214 382 82M382 214 382 352"/>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="282" y="138" width="200" height="150" rx="24" fill="#ffdf7d"/>
+    <path d="M322 188h120M322 218h92M322 248h132" stroke="#030303" stroke-width="8" stroke-linecap="round"/>
+    <path d="M454 168 482 138v62" fill="none" stroke="#030303" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#10162c" stroke="#ff7ab6" stroke-width="4">
+    <circle cx="194" cy="126" r="34"/>
+    <circle cx="198" cy="310" r="34"/>
+    <circle cx="594" cy="126" r="34"/>
+    <circle cx="596" cy="310" r="34"/>
+    <circle cx="382" cy="82" r="34"/>
+    <circle cx="382" cy="352" r="34"/>
+  </g>
+  <g fill="#8fffd2" font-family="Arial, sans-serif" font-size="12" font-weight="900" text-anchor="middle">
+    <text x="194" y="130">VOTE</text>
+    <text x="198" y="314">REFUND</text>
+    <text x="594" y="130">FUND</text>
+    <text x="596" y="314">SPEND</text>
+    <text x="382" y="86">DAO</text>
+    <text x="382" y="356">ETH</text>
+  </g>
+  <text x="62" y="386" fill="#ff7ab6" font-family="Arial Black, Arial, sans-serif" font-size="28">SMART CONTRACT</text>
+</svg>

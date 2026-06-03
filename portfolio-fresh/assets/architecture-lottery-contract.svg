@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lottery smart contract architecture</title>
+  <desc id="desc">Flow from participants entering the lottery to contract pot, manager draw, winner payout, and reset.</desc>
+  <rect width="980" height="360" rx="24" fill="#050505"/>
+  <g fill="#10162c" stroke="#8fffd2" stroke-width="2">
+    <rect x="52" y="128" width="146" height="74" rx="16"/>
+    <rect x="276" y="128" width="146" height="74" rx="16"/>
+    <rect x="500" y="128" width="146" height="74" rx="16"/>
+    <rect x="724" y="128" width="146" height="74" rx="16"/>
+    <rect x="500" y="250" width="146" height="54" rx="16" stroke="#ffdf7d"/>
+  </g>
+  <g stroke="#ff7ab6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M198 165h66"/><path d="M254 151 264 165 254 179"/>
+    <path d="M422 165h66"/><path d="M478 151 488 165 478 179"/>
+    <path d="M646 165h66"/><path d="M702 151 712 165 702 179"/>
+    <path d="M573 202v38"/><path d="M559 230 573 240 587 230"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-weight="900">
+    <text x="490" y="52" fill="#ffdf7d" font-size="26">LOTTERY CONTRACT ARCHITECTURE</text>
+    <text x="125" y="158" fill="#f6f3ed" font-size="17">Players</text><text x="125" y="181" fill="#8fffd2" font-size="14">enter with ETH</text>
+    <text x="349" y="158" fill="#f6f3ed" font-size="17">Contract Pot</text><text x="349" y="181" fill="#8fffd2" font-size="14">stores balance</text>
+    <text x="573" y="158" fill="#f6f3ed" font-size="17">Manager Draw</text><text x="573" y="181" fill="#8fffd2" font-size="14">select winner</text>
+    <text x="797" y="158" fill="#f6f3ed" font-size="17">Winner</text><text x="797" y="181" fill="#8fffd2" font-size="14">receives prize</text>
+    <text x="573" y="284" fill="#ffdf7d" font-size="17">Reset Round</text>
+  </g>
+</svg>

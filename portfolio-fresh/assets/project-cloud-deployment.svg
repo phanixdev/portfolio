@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Multi VM cloud deployment illustration</title>
+  <desc id="desc">A cloud infrastructure diagram with public and private nodes connected through a gateway.</desc>
+  <defs>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fffd2" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#6ca8ff" stop-opacity=".78"/>
+    </linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="760" height="430" rx="28" fill="#030303"/>
+  <g opacity=".22" stroke="#6ca8ff" stroke-width="1">
+    <path d="M80 42h580v286H80z"/>
+    <path d="M80 132h580M80 226h580M190 42v286M384 42v286M560 42v286"/>
+  </g>
+  <path d="M156 292 C98 292 76 246 118 220 C116 160 176 132 218 166 C244 112 326 106 362 164 C416 148 468 180 466 230 C526 234 538 292 482 292Z" fill="none" stroke="#8fffd2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)"/>
+  <g stroke="#6ca8ff" stroke-width="4" stroke-linecap="round" opacity=".82">
+    <path d="M384 210 244 126M384 210 244 292M384 210 562 126M384 210 562 292M384 210 384 326"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="900" text-anchor="middle">
+    <rect x="326" y="170" width="116" height="72" rx="18" fill="url(#node)"/>
+    <text x="384" y="199" fill="#030303">NGINX</text>
+    <text x="384" y="217" fill="#030303">GATEWAY</text>
+    <rect x="190" y="86" width="98" height="54" rx="14" fill="#10162c" stroke="#8fffd2" stroke-opacity=".58"/>
+    <text x="239" y="119" fill="#8fffd2">ENGINE</text>
+    <rect x="190" y="264" width="98" height="54" rx="14" fill="#10162c" stroke="#ffdf7d" stroke-opacity=".58"/>
+    <text x="239" y="297" fill="#ffdf7d">MATH VM</text>
+    <rect x="514" y="86" width="124" height="54" rx="14" fill="#10162c" stroke="#ff7ab6" stroke-opacity=".58"/>
+    <text x="576" y="119" fill="#ff7ab6">TS WORKER</text>
+    <rect x="514" y="264" width="124" height="54" rx="14" fill="#10162c" stroke="#6ca8ff" stroke-opacity=".58"/>
+    <text x="576" y="297" fill="#6ca8ff">AI WORKER</text>
+    <rect x="326" y="326" width="116" height="54" rx="14" fill="#10162c" stroke="#8fffd2" stroke-opacity=".58"/>
+    <text x="384" y="360" fill="#8fffd2">TERRAFORM</text>
+  </g>
+  <text x="62" y="386" fill="#8fffd2" font-family="Arial Black, Arial, sans-serif" font-size="28">MULTI-VM CLOUD</text>
+</svg>

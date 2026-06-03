@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Google Developer Student Clubs logo badge</title>
+  <rect width="160" height="160" rx="34" fill="#050505"/>
+  <path d="M56 52 28 80l28 28" fill="none" stroke="#4285f4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 52l28 28-28 28" fill="none" stroke="#34a853" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 112 88 48" fill="none" stroke="#fbbc05" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="80" cy="80" r="8" fill="#ea4335"/>
+  <text x="80" y="146" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="15" font-weight="900" text-anchor="middle">GDSC</text>
+</svg>

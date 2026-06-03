@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Spotify clone frontend architecture</title>
+  <desc id="desc">Frontend architecture diagram from HTML layout to CSS styling, JavaScript DOM behavior, and browser UI.</desc>
+  <rect width="980" height="360" rx="24" fill="#050505"/>
+  <g fill="#10162c" stroke="#6ca8ff" stroke-width="2">
+    <rect x="52" y="122" width="150" height="82" rx="16"/>
+    <rect x="280" y="122" width="150" height="82" rx="16"/>
+    <rect x="508" y="122" width="150" height="82" rx="16"/>
+    <rect x="736" y="122" width="150" height="82" rx="16"/>
+  </g>
+  <g stroke="#8fffd2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M202 163h68"/><path d="M260 149 270 163 260 177"/>
+    <path d="M430 163h68"/><path d="M488 149 498 163 488 177"/>
+    <path d="M658 163h68"/><path d="M716 149 726 163 716 177"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-weight="900">
+    <text x="490" y="52" fill="#8fffd2" font-size="26">SPOTIFY CLONE FRONTEND ARCHITECTURE</text>
+    <text x="127" y="154" fill="#f6f3ed" font-size="18">HTML</text><text x="127" y="179" fill="#ffdf7d" font-size="14">structure</text>
+    <text x="355" y="154" fill="#f6f3ed" font-size="18">CSS</text><text x="355" y="179" fill="#ffdf7d" font-size="14">responsive UI</text>
+    <text x="583" y="154" fill="#f6f3ed" font-size="18">JavaScript</text><text x="583" y="179" fill="#ffdf7d" font-size="14">DOM behavior</text>
+    <text x="811" y="154" fill="#f6f3ed" font-size="18">Browser</text><text x="811" y="179" fill="#ffdf7d" font-size="14">music player</text>
+  </g>
+  <g fill="#ff7ab6">
+    <rect x="260" y="260" width="70" height="8" rx="4"/>
+    <rect x="350" y="240" width="70" height="28" rx="4"/>
+    <rect x="440" y="220" width="70" height="48" rx="4"/>
+    <rect x="530" y="232" width="70" height="36" rx="4"/>
+    <rect x="620" y="250" width="70" height="18" rx="4"/>
+  </g>
+</svg>
